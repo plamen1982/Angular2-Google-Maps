@@ -6,10 +6,12 @@ import { FormsModule } from '@angular/forms';
 import { AgmCoreModule } from 'angular2-google-maps/core';
 
 import { AppComponent } from './app.component';
+import { MyGoogleMapsComponent } from './my-google-maps/my-google-maps.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MyGoogleMapsComponent
   ],
   imports: [
     BrowserModule,
